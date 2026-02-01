@@ -36,7 +36,7 @@ export default function LoginForm()
             <InputField fieldname= "password" type="password" label ="Password" register={register}></InputField>
             <div className="flex w-full pt-1 px-4 mb-1 mx-auto justify-center">
                 <div className="flex text-sm text-primary py-1 justify-center">
-                    <Link href="/register/" target="_blank" className="justify-center">Don't Have an Account? Sign Up Here</Link> 
+                    <Link href="/register/" className="justify-center">Don't Have an Account? Sign Up Here</Link> 
                 </div>
             </div>
             <span className="text-primary">{formState.errors.email? formState.errors.email.message : " " }</span>

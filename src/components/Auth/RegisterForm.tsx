@@ -48,7 +48,7 @@ export default function LoginForm()
             <span className="text-primary">{formState.errors.confirmPassword? formState.errors.confirmPassword.message : " " }</span>
             <div className="flex w-full pt-1 px-4 mb-1 mx-auto justify-center">
                 <div className="flex text-sm text-primary py-1 justify-center">
-                    <Link href="/login/" target="_blank" className="justify-center">Already Have An Account? Sign In Here</Link> 
+                    <Link href="/login/"className="justify-center">Already Have An Account? Sign In Here</Link> 
                 </div>
             </div>
             <Button label = "Create Account"></Button>
