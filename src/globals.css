@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #1dab62;
+  --primaryBg: #ffffff;
+  --secondary: #d8fcd2;
+  --secondaryBg :#f2ece4;
+  --text: #0a0a0a;
+  --highlightedText: #1dab62;
+  --warningLabel: #f70a0a;
+}
+.dark{
+  --primary: #144d37;
+  --primaryBg: #161717;
+  --secondary: #144d37;
+  --secondaryBg :#2d2e2e;
+  --text: #ffffff;
+  --highlightedText: #ffffff;
+  --warningLabel: #f70a0a;
+
+}
+
+.blue{
+  --primary: #1d43ab;
+  --primaryBg: #ffffff;
+  --secondary: #d2d3fc;
+  --secondaryBg :#e4e4f2;
+  --text: #0a0a0a;
+  --highlightedText: #1d4fab;
+  --warningLabel: #f70a0a;
+}
+
+.red{
+  --primary: #ab391d;
+  --primaryBg: #ffffff;
+  --secondary: #fcd5d2;
+  --secondaryBg :#f2e8e4;
+  --text: #0a0a0a;
+  --highlightedText: #ab301d;
+  --warningLabel: #f70a0a;
+
+}
+@theme inline {
+  --color-primary: var(--primary);
+  --color-primaryBg: var(--primaryBg);
+  --color-secondary: var(--secondary);
+  --color-secondaryBg: var(--secondaryBg);
+  --color-text: var(--text);
+  --color-highlightedText: var(--highlightedText);
+  --color-warningLabel: var(--warningLabel);
+}
+/* dark theme */
+/* .dark {
+  --color-foreground: #2563eb;
+  --color-background: #111827;
+  --color-highlight: #001d5d;
+  --color-text: #f9fafb;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+} */
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --highlight: #585252;
+  }
+} */
+
+/* body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.formCard {
+  @apply shadow-lg rounded-xl p-6 max-w-md mx-auto transition-transform transform hover:scale-105 flex flex-col gap-3;
+  min-height: 50vh;
+  min-width: 50vw;
+  background-color: var(--color-background);
+  place-items: center;
+  color: var(--text);
+}
+.banner {
+  @apply py-4 px-6 text-2xl w-full rounded-xl flex flex-col justify-items-center;
+  background-color: var(--color-foreground);
+  place-items: center;
+  border: 1px solid var(--color-highlight);
+  color: var(--text);
+}
+ */
